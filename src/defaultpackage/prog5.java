@@ -32,12 +32,7 @@ public class prog5 {
 	 
 	 
 	 }
-	
-	
-	 //System.out.println(top);
-	 //System.out.println();
-	 //System.out.println(down);
-	 //System.out.println(line);
+
 	 
 	 System.out.println(display);
 }
