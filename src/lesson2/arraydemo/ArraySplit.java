@@ -16,7 +16,7 @@ public class ArraySplit {
 	}
 		System.out.println(Arrays.toString(parsedVals));
 		String t = "Hello,strings can be fun. They have many uses";
-		String[] result = t.split(",|\\.| ");  // Delimiters - commma, space and dot
+		String[] result = t.split(",| ");  // Delimiters - commma, space and dot
 		System.out.println(Arrays.toString(result));
 		
 	}
