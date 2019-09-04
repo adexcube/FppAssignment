@@ -13,7 +13,7 @@ public class prog7 {
 				count++;
 			
 		}
-		 System.out.println(count);
+		 System.out.println("String input starting with A: " +count);
 		
 		
 	}
