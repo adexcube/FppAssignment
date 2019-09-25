@@ -42,6 +42,8 @@ public class ArrayQueueImpl {
 				arr[count] = arr[i];
 				++count;
 			}
+			
+			--rear;
 		}
 		return 1;
 		}
@@ -64,7 +66,7 @@ public class ArrayQueueImpl {
 				int[] temp = new int[arr.length * 2];
 				System.arraycopy(arr, 0, temp, 0, arr.length);
 				arr = temp;
-				++rear;
+				
 				
 			}
 			
