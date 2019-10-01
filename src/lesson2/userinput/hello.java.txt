@@ -1,0 +1,40 @@
+package lessonweek1;
+
+public class Customer {
+	String firstName;
+	String lastName;
+	String socSecNum;
+	Address billingAddress;
+	Address shippingAddress;
+	
+	Customer(String firstName, String lastName, String socSecNum, Address billingAddress, Address shippingAddress)
+	{
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.socSecNum = socSecNum;
+		this.billingAddress = billingAddress;
+		this.shippingAddress = shippingAddress;
+		
+	}
+	
+	@Override
+	
+	public String toString() {
+		return ("[" + firstName + lastName + "ssn: " + socSecNum + "]");
+		
+	}
+	
+	public class Address {
+		String strAddress;
+		String city;
+		String country;
+	}
+	
+	Customer[] custom = new Customer[2];
+	Address[] add = new Address[2];
+	
+	add[0] = {, Chicago, USA};
+	
+	custom[0] = {Adelaja, Solomon, 22322321};
+	
+}
